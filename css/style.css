@@ -1,0 +1,46 @@
+body{
+    background-color: -moz-linear-gradient(90deg, rgba(247,255,229,1) 0%, rgba(221,211,255,1) 100%);
+    background-color: -webkit-linear-gradient(90deg, rgba(247,255,229,1) 0%, rgba(221,211,255,1) 100%);
+    background-color: linear-gradient(90deg, rgba(247,255,229,1) 0%, rgba(221,211,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7ffe5",endColorstr="#ddd3ff",GradientType=1);
+    background-image: url('../img/patterns.png');
+}
+#phone{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 30px 16px rgba(0,0,0,0.23);
+    display: flex;
+    width: 430px;
+    height: 700px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    margin: auto;
+}
+#bloque_juego{
+    border-radius: 20px !important;
+}
+#info{
+    background-color: red;
+    width: 400px;
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    color: greenyellow;
+    font-family: console;
+    font-weight: 700;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#name{
+    color: black;
+    padding: 20px 15px;
+    background-color: rgba(255, 127, 80, 0.37);
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
